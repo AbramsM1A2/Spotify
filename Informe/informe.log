@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.4.15)  18 DEC 2020 16:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.4.15)  29 DEC 2020 18:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -640,44 +640,186 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip50
 )
-(./informe.aux
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip51
+\subfigcapskip=\skip52
+\subfigcaptopadj=\dimen128
+\subfigbottomskip=\skip53
+\subfigcapmargin=\dimen129
+\subfiglabelskip=\skip54
+\c@subfigure=\count117
+\c@lofdepth=\count118
+\c@subtable=\count119
+\c@lotdepth=\count120
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip55
+\subfig@bottom=\skip56
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count121
+\Gm@cntv=\count122
+\c@Gm@tempcnt=\count123
+\Gm@bindingoffset=\dimen130
+\Gm@wd@mp=\dimen131
+\Gm@odd@mp=\dimen132
+\Gm@even@mp=\dimen133
+\Gm@layoutwidth=\dimen134
+\Gm@layoutheight=\dimen135
+\Gm@layouthoffset=\dimen136
+\Gm@layoutvoffset=\dimen137
+\Gm@dimlist=\toks25
+) (./informe.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
+
+
+LaTeX Warning: Label `fig:first' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:first' multiply defined.
+
+
+LaTeX Warning: Label `fig:second' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:second' multiply defined.
+
+
+LaTeX Warning: Label `fig:third' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:third' multiply defined.
+
+
+LaTeX Warning: Label `fig:first' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:first' multiply defined.
+
+
+LaTeX Warning: Label `fig:second' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:second' multiply defined.
+
+
+LaTeX Warning: Label `fig:third' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:third' multiply defined.
+
+
+LaTeX Warning: Label `fig:first' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:first' multiply defined.
+
+
+LaTeX Warning: Label `fig:second' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:second' multiply defined.
+
+
+LaTeX Warning: Label `fig:third' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:third' multiply defined.
+
+
+LaTeX Warning: Label `fig:first' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:first' multiply defined.
+
+
+LaTeX Warning: Label `fig:second' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:second' multiply defined.
+
+
+LaTeX Warning: Label `fig:third' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:third' multiply defined.
+
+
+LaTeX Warning: Label `fig:first' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:first' multiply defined.
+
+
+LaTeX Warning: Label `fig:second' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:second' multiply defined.
+
+
+LaTeX Warning: Label `fig:third' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:third' multiply defined.
+
+
+LaTeX Warning: Label `fig:four' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:four' multiply defined.
+
+
+LaTeX Warning: Label `fig:first' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:first' multiply defined.
+
+
+LaTeX Warning: Label `fig:second' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:second' multiply defined.
+
 )
 \openout1 = `informe.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Info: Redefining \. on input line 31.
+LaTeX Info: Redefining \% on input line 31.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count117
-\scratchdimen=\dimen128
+\scratchcounter=\count124
+\scratchdimen=\dimen138
 \scratchbox=\box30
-\nofMPsegments=\count118
-\nofMParguments=\count119
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count120
-\MPscratchDim=\dimen129
-\MPnumerator=\count121
-\makeMPintoPDFobject=\count122
-\everyMPtoPDFconversion=\toks26
+\nofMPsegments=\count125
+\nofMParguments=\count126
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count127
+\MPscratchDim=\dimen139
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
+\everyMPtoPDFconversion=\toks27
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -696,7 +838,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 23.
+Package hyperref Info: Link coloring OFF on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -704,50 +846,84 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count123
+\c@section@level=\count130
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
 
 (./informe.out) (./informe.out)
 \@outlinefile=\write3
 \openout3 = `informe.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 26.
 
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69684pt, 56.90553pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23582pt, 56.90552pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69684pt
+* \textheight=731.23582pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 34.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+LaTeX Font Info:    Try loading font information for U+msb on input line 34.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 34.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./informe.toc
@@ -769,151 +945,472 @@ LaTeX Info: Redefining \% on input line 2.
 \openout5 = `informe.lof'.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 41.
  [1]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 43.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 43.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 43.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 43.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 43.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 35.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 41.
+(babel)             in language  on input line 43.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 49.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<spotify_dev_dashboard.png, id=30, 661.87276pt x 392.06474pt>
+<spotify_dev_dashboard.png, id=59, 661.87276pt x 392.06474pt>
 File: spotify_dev_dashboard.png Graphic file (type png)
 
 <use spotify_dev_dashboard.png>
-Package pdftex.def Info: spotify_dev_dashboard.png used on input line 61.
+Package pdftex.def Info: spotify_dev_dashboard.png used on input line 69.
 (pdftex.def)             Requested size: 341.43306pt x 202.2536pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<devoloper_spotify_1.png, id=32, 740.16525pt x 287.27325pt>
+<devoloper_spotify_1.png, id=61, 740.16525pt x 287.27325pt>
 File: devoloper_spotify_1.png Graphic file (type png)
 
 <use devoloper_spotify_1.png>
-Package pdftex.def Info: devoloper_spotify_1.png used on input line 67.
+Package pdftex.def Info: devoloper_spotify_1.png used on input line 75.
 (pdftex.def)             Requested size: 341.43306pt x 132.5155pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 82.
 [2
 
-]
-Overfull \hbox (0.79861pt too wide) in paragraph at lines 74--74
- []\OT1/cmr/bx/n/10.95 Una vez ten-ga-mos nues-tra apli-ca-cion crea-da ne-ce-s
-i-ta-re-mos el client
+ <./spotify_dev_dashboard.png>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 86.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 86.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 86.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 86.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 86.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 86.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 113.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 113.
+ [3 <./devoloper_spotify_1.png>]
+<programa_1.png, id=93, 417.05812pt x 186.6975pt>
+File: programa_1.png Graphic file (type png)
+ <use programa_1.png>
+Package pdftex.def Info: programa_1.png used on input line 119.
+(pdftex.def)             Requested size: 338.5863pt x 151.57738pt.
+
+<programa_2.png, id=94, 455.7025pt x 151.56625pt>
+File: programa_2.png Graphic file (type png)
+ <use programa_2.png>
+Package pdftex.def Info: programa_2.png used on input line 124.
+(pdftex.def)             Requested size: 338.5863pt x 112.61517pt.
+
+<programa_3.png, id=95, 368.37625pt x 399.99437pt>
+File: programa_3.png Graphic file (type png)
+ <use programa_3.png>
+Package pdftex.def Info: programa_3.png used on input line 128.
+(pdftex.def)             Requested size: 338.5863pt x 367.6453pt.
+
+Overfull \vbox (7.88536pt too high) has occurred while \output is active []
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 137.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 137.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 137.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 137.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 137.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 137.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 137.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 137.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 137.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 137.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 137.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 137.
+
+[4 <./programa_1.png> <./programa_2.png> <./programa_3.png>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 140.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 140.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 140.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 140.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 140.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 140.
+
+<sage_1.png, id=106, 365.365pt x 25.09375pt>
+File: sage_1.png Graphic file (type png)
+ <use sage_1.png>
+Package pdftex.def Info: sage_1.png used on input line 157.
+(pdftex.def)             Requested size: 338.5863pt x 23.25575pt.
+
+<sage_2.png, id=107, 368.37625pt x 116.93687pt>
+File: sage_2.png Graphic file (type png)
+ <use sage_2.png>
+Package pdftex.def Info: sage_2.png used on input line 162.
+(pdftex.def)             Requested size: 338.5863pt x 107.47972pt.
+
+<sage_3.png, id=108, 379.91937pt x 117.43875pt>
+File: sage_3.png Graphic file (type png)
+ <use sage_3.png>
+Package pdftex.def Info: sage_3.png used on input line 166.
+(pdftex.def)             Requested size: 338.5863pt x 104.66528pt.
+
+<sage_5.png, id=109, 469.755pt x 108.405pt>
+File: sage_5.png Graphic file (type png)
+ <use sage_5.png>
+Package pdftex.def Info: sage_5.png used on input line 182.
+(pdftex.def)             Requested size: 338.5863pt x 78.13588pt.
+
+<sage_4.png, id=110, 760.8425pt x 271.0125pt>
+File: sage_4.png Graphic file (type png)
+ <use sage_4.png>
+Package pdftex.def Info: sage_4.png used on input line 187.
+(pdftex.def)             Requested size: 338.5863pt x 120.60637pt.
+
+<sage_6.png, id=111, 1244.4894pt x 1196.7912pt>
+File: sage_6.png Graphic file (type png)
+ <use sage_6.png>
+Package pdftex.def Info: sage_6.png used on input line 191.
+(pdftex.def)             Requested size: 338.5863pt x 325.60326pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 200.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 200.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 200.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 200.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 200.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 200.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 200.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 200.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 200.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 200.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 200.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 200.
+ [5 <./sage_1.png> <./sage_2.png> <./sage_3.png>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 209.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 209.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 209.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 209.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 209.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 209.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 209.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 209.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 209.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 209.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 209.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 209.
+ [6 <./sage_5.png> <./sage_4.png> <./sage_6.png>] <sage_7.png, id=143, 456.7062
+5pt x 200.24812pt>
+File: sage_7.png Graphic file (type png)
+ <use sage_7.png>
+Package pdftex.def Info: sage_7.png used on input line 227.
+(pdftex.def)             Requested size: 241.84842pt x 106.03932pt.
+
+<sage_7_out.png, id=144, 627.84563pt x 278.54062pt>
+File: sage_7_out.png Graphic file (type png)
+ <use sage_7_out.png>
+Package pdftex.def Info: sage_7_out.png used on input line 231.
+(pdftex.def)             Requested size: 241.84842pt x 107.2916pt.
+
+Overfull \hbox (14.59998pt too wide) in paragraph at lines 227--231
+ [][][] 
+ []
+
+<sage_8.png, id=145, 490.33188pt x 226.8475pt>
+File: sage_8.png Graphic file (type png)
+ <use sage_8.png>
+Package pdftex.def Info: sage_8.png used on input line 235.
+(pdftex.def)             Requested size: 241.84842pt x 111.8866pt.
+
+<sage_8_out.png, id=146, 628.3475pt x 362.35374pt>
+File: sage_8_out.png Graphic file (type png)
+ <use sage_8_out.png>
+Package pdftex.def Info: sage_8_out.png used on input line 239.
+(pdftex.def)             Requested size: 241.84842pt x 139.46515pt.
+
+Overfull \hbox (14.59998pt too wide) in paragraph at lines 235--241
+ [][][][] 
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 249.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 249.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 249.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 249.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 249.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 249.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 249.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 249.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 249.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 249.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 249.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 74.
-[3 <./spotify_dev_dashboard.png> <./devoloper_spotify_1.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 80.
+(babel)             in language  on input line 249.
+[7 <./sage_7.png> <./sage_7_out.png> <./sage_8.png> <./sage_8_out.png>]
+<sage_11.png, id=163, 609.27625pt x 80.3pt>
+File: sage_11.png Graphic file (type png)
+ <use sage_11.png>
+Package pdftex.def Info: sage_11.png used on input line 256.
+(pdftex.def)             Requested size: 483.69684pt x 63.75119pt.
+
+Overfull \hbox (7.29999pt too wide) in paragraph at lines 256--256
+ [] 
+ []
+
+<sage_9.png, id=164, 621.82312pt x 65.74562pt>
+File: sage_9.png Graphic file (type png)
+ <use sage_9.png>
+Package pdftex.def Info: sage_9.png used on input line 260.
+(pdftex.def)             Requested size: 483.69684pt x 51.14192pt.
+
+Overfull \hbox (7.29999pt too wide) in paragraph at lines 260--260
+ [][] 
+ []
+
+<sage_10.png, id=165, 620.3175pt x 65.24374pt>
+File: sage_10.png Graphic file (type png)
+ <use sage_10.png>
+Package pdftex.def Info: sage_10.png used on input line 264.
+(pdftex.def)             Requested size: 483.69684pt x 50.87398pt.
+
+Overfull \hbox (7.29999pt too wide) in paragraph at lines 264--266
+ [][] 
+ []
+
+<sage_12.png, id=167, 518.43687pt x 80.80188pt>
+File: sage_12.png Graphic file (type png)
+ <use sage_12.png>
+Package pdftex.def Info: sage_12.png used on input line 281.
+(pdftex.def)             Requested size: 241.84842pt x 37.69453pt.
+
+<sage_13.png, id=168, 210.7875pt x 80.3pt>
+File: sage_13.png Graphic file (type png)
+ <use sage_13.png>
+Package pdftex.def Info: sage_13.png used on input line 285.
+(pdftex.def)             Requested size: 241.84842pt x 92.13474pt.
+
+Overfull \hbox (14.59998pt too wide) in paragraph at lines 281--285
+ [][][] 
+ []
+
+<sage_14.png, id=169, 412.03937pt x 161.60374pt>
+File: sage_14.png Graphic file (type png)
+ <use sage_14.png>
+Package pdftex.def Info: sage_14.png used on input line 289.
+(pdftex.def)             Requested size: 241.84842pt x 94.85466pt.
+
+<sage_15.png, id=170, 316.68312pt x 215.80624pt>
+File: sage_15.png Graphic file (type png)
+ <use sage_15.png>
+Package pdftex.def Info: sage_15.png used on input line 293.
+(pdftex.def)             Requested size: 241.84842pt x 164.81462pt.
+
+Overfull \hbox (14.59998pt too wide) in paragraph at lines 289--295
+ [][][][] 
+ []
+
+<sage_16.png, id=172, 209.78375pt x 79.29625pt>
+File: sage_16.png Graphic file (type png)
+ <use sage_16.png>
+Package pdftex.def Info: sage_16.png used on input line 310.
+(pdftex.def)             Requested size: 241.84842pt x 91.41621pt.
+
+<sage_17.png, id=173, 622.82687pt x 120.45pt>
+File: sage_17.png Graphic file (type png)
+ <use sage_17.png>
+Package pdftex.def Info: sage_17.png used on input line 314.
+(pdftex.def)             Requested size: 241.84842pt x 46.77129pt.
+
+Overfull \hbox (14.59998pt too wide) in paragraph at lines 310--315
+ [][][] 
+ []
+
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 323.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 323.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 323.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 323.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 323.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 323.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 323.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 323.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 323.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 323.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 323.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 80.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 80.
+(babel)             in language  on input line 323.
+[8 <./sage_11.png> <./sage_9.png> <./sage_10.png> <./sage_12.png> <./sage_13.pn
+g> <./sage_14.png> <./sage_15.png>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 325.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 325.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 325.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 325.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 325.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 325.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 334.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 334.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 334.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 334.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 334.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 334.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 334.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 334.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 334.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 334.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 334.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 334.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 334.
+ [9 <./sage_16.png> <./sage_17.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 334.
 
 (./informe.aux
 LaTeX Info: Redefining \. on input line 23.
@@ -921,33 +1418,38 @@ LaTeX Info: Redefining \% on input line 23.
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 80.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 80.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 334.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 334.
 Package rerunfilecheck Info: File `informe.out' has not changed.
-(rerunfilecheck)             Checksum: 3C59B4BF1B521D1BABA64DB4BD39C7A2;60.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 80.
+(rerunfilecheck)             Checksum: B8ABFCC551329C5077DA25E2CBECA100;211.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 334.
  ) 
 Here is how much of TeX's memory you used:
- 8128 strings out of 493013
- 113997 string characters out of 6135682
- 217596 words of memory out of 5000000
- 11535 multiletter control sequences out of 15000+600000
- 13341 words of font info for 52 fonts, out of 8000000 for 9000
+ 8915 strings out of 493013
+ 125137 string characters out of 6135682
+ 232200 words of memory out of 5000000
+ 12235 multiletter control sequences out of 15000+600000
+ 13700 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  33i,8n,35p,512b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/latxfont/lasy10.pfb>
-Output written on informe.pdf (5 pages, 147946 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+latxfont/lasy10.pfb>
+Output written on informe.pdf (10 pages, 934609 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
- 20 named destinations out of 1000 (max. 500000)
- 19 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 258 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

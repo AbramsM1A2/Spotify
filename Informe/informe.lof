@@ -1,4 +1,33 @@
 \select@language {spanish}
 \select@language {spanish}
-\contentsline {figure}{\numberline {1}{\ignorespaces Spotify dashboard}}{3}{figure.1}
+\contentsline {figure}{\numberline {1}{\ignorespaces Spotify dashboard}}{2}{figure.1}
 \contentsline {figure}{\numberline {2}{\ignorespaces Spotify application}}{3}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces C\IeC {\'o}digo Python }}{4}{figure.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {conexion API}}}{4}{figure.3}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Urls que utilizaremos con la API}}}{4}{figure.3}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Recolecci\IeC {\'o}n y exportaci\IeC {\'o}n de los datos}}}{4}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces C\IeC {\'o}digo SageMath 1 }}{5}{figure.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {librerias json}}}{5}{figure.4}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {importaci\IeC {\'o}n de los datos de los artistas}}}{5}{figure.4}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {importaci\IeC {\'o}n de los datos de las playlists}}}{5}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces C\IeC {\'o}digo SageMath 2 }}{6}{figure.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {met\IeC {\'o}dos auxiliares para crear el grafo}}}{6}{figure.5}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {creaci\IeC {\'o}n del grafo}}}{6}{figure.5}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {grafo}}}{6}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces C\IeC {\'o}digo SageMath 3 }}{7}{figure.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Popularidad total seg\IeC {\'u}n playlist}}}{7}{figure.6}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Salida popularidad total seg\IeC {\'u}n playlist}}}{7}{figure.6}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {G\IeC {\'e}nero mas popular seg\IeC {\'u}n playlist}}}{7}{figure.6}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Salida G\IeC {\'e}nero mas popular seg\IeC {\'u}n playlist}}}{7}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces C\IeC {\'o}digo SageMath 4 }}{8}{figure.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Centralidad de grado}}}{8}{figure.7}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Centralidad de intermediaci\IeC {\'o}n}}}{8}{figure.7}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Centralidad de cercan\IeC {\'\i }a}}}{8}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces C\IeC {\'o}digo SageMath 5 }}{8}{figure.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Similitud}}}{8}{figure.8}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Similitud entre comunidades}}}{8}{figure.8}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Unir comunidades}}}{8}{figure.8}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Comunidades aplicando modularidad}}}{8}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces C\IeC {\'o}digo SageMath 6 }}{9}{figure.9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Salida comunidades}}}{9}{figure.9}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Vector de comunidades}}}{9}{figure.9}
