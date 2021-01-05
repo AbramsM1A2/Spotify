@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.4.15)  5 JAN 2021 18:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.4.15)  5 JAN 2021 19:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1409,28 +1409,28 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 325.
 
-<gephi_modularity.png, id=208, 401.5pt x 311.1625pt>
+<gephi_modularity.png, id=205, 401.5pt x 311.1625pt>
 File: gephi_modularity.png Graphic file (type png)
 
 <use gephi_modularity.png>
 Package pdftex.def Info: gephi_modularity.png used on input line 356.
 (pdftex.def)             Requested size: 241.84842pt x 187.43488pt.
 
-<gephi_apariencia_color.png, id=209, 157.08687pt x 214.8025pt>
+<gephi_apariencia_color.png, id=206, 157.08687pt x 214.8025pt>
 File: gephi_apariencia_color.png Graphic file (type png)
 
 <use gephi_apariencia_color.png>
 Package pdftex.def Info: gephi_apariencia_color.png used on input line 360.
 (pdftex.def)             Requested size: 145.11052pt x 198.43353pt.
 
-<gephi_apariencia_tam.png, id=210, 161.10187pt x 215.30438pt>
+<gephi_apariencia_tam.png, id=207, 161.10187pt x 215.30438pt>
 File: gephi_apariencia_tam.png Graphic file (type png)
 
 <use gephi_apariencia_tam.png>
 Package pdftex.def Info: gephi_apariencia_tam.png used on input line 364.
 (pdftex.def)             Requested size: 145.11052pt x 193.9397pt.
 
-<gephi_graph_1.png, id=211, 442.15187pt x 330.23375pt>
+<gephi_graph_1.png, id=208, 442.15187pt x 330.23375pt>
 File: gephi_graph_1.png Graphic file (type png)
  <use gephi_graph_1.png>
 Package pdftex.def Info: gephi_graph_1.png used on input line 368.
@@ -1461,96 +1461,96 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 376.
 
 [9 <./sage_16.png> <./sage_17.png>]
-<gephi_grafo_bonito.png, id=233, 431.6125pt x 342.78062pt>
+<gephi_grafo_bonito.png, id=230, 431.6125pt x 342.78062pt>
 File: gephi_grafo_bonito.png Graphic file (type png)
 
 <use gephi_grafo_bonito.png>
-Package pdftex.def Info: gephi_grafo_bonito.png used on input line 383.
-(pdftex.def)             Requested size: 341.43306pt x 271.1703pt.
+Package pdftex.def Info: gephi_grafo_bonito.png used on input line 382.
+(pdftex.def)             Requested size: 426.79134pt x 338.96156pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 387.
+(babel)             in language  on input line 386.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 387.
+(babel)             in language  on input line 386.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 387.
+(babel)             in language  on input line 386.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 387.
+(babel)             in language  on input line 386.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 387.
+(babel)             in language  on input line 386.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 387.
+(babel)             in language  on input line 386.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 387.
+(babel)             in language  on input line 386.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 387.
+(babel)             in language  on input line 386.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 387.
+(babel)             in language  on input line 386.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 387.
+(babel)             in language  on input line 386.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 387.
+(babel)             in language  on input line 386.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 387.
+(babel)             in language  on input line 386.
 [10 <./gephi_modularity.png> <./gephi_apariencia_color.png> <./gephi_apariencia
 _tam.png> <./gephi_graph_1.png>]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 388.
+(babel)             in language  on input line 387.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 388.
+(babel)             in language  on input line 387.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 388.
+(babel)             in language  on input line 387.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 388.
+(babel)             in language  on input line 387.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 388.
+(babel)             in language  on input line 387.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 388.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 397.
+(babel)             in language  on input line 387.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 396.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 397.
+(babel)             in language  on input line 396.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 397.
+(babel)             in language  on input line 396.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 397.
+(babel)             in language  on input line 396.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 397.
+(babel)             in language  on input line 396.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 397.
+(babel)             in language  on input line 396.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 397.
+(babel)             in language  on input line 396.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 397.
+(babel)             in language  on input line 396.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 397.
+(babel)             in language  on input line 396.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 397.
+(babel)             in language  on input line 396.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 397.
+(babel)             in language  on input line 396.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 397.
+(babel)             in language  on input line 396.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 397.
+(babel)             in language  on input line 396.
  [11 <./gephi_grafo_bonito.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 397.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 396.
  (./informe.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 397.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 397.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 396.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 396.
 Package rerunfilecheck Info: File `informe.out' has not changed.
 (rerunfilecheck)             Checksum: 81D00B9A1E80C0AEB42F60C6B037D87E;296.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 397.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 396.
  ) 
 Here is how much of TeX's memory you used:
  8966 strings out of 493013
@@ -1570,10 +1570,10 @@ s/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 latxfont/lasy10.pfb>
-Output written on informe.pdf (12 pages, 1274592 bytes).
+Output written on informe.pdf (12 pages, 1273654 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 227 compressed objects within 3 object streams
+ 309 PDF objects out of 1000 (max. 8388607)
+ 224 compressed objects within 3 object streams
  97 named destinations out of 1000 (max. 500000)
  186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
