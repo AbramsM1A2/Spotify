@@ -255,6 +255,9 @@ INPUT ./gephi_apariencia_tam.png
 INPUT gephi_graph_1.png
 INPUT ./gephi_graph_1.png
 INPUT ./gephi_graph_1.png
+INPUT gephi_grafo_bonito.png
+INPUT ./gephi_grafo_bonito.png
+INPUT ./gephi_grafo_bonito.png
 INPUT informe.aux
 INPUT ./informe.out
 INPUT ./informe.out
