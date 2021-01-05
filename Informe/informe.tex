@@ -83,7 +83,7 @@ y recuperar datos de la API.}
 que nos permite recuperar datos de la API de Spotify y exportarlos a JSON. 
 Y el segundo escrito en SageMath que nos permite representar y estudiar esos datos con teoría de grafos.}
 
-\section{Código Python}
+\section{Obtención de datos}
 
 \paragraph*{El codigo python se compone de tres secciones}
 \begin{itemize}
@@ -137,7 +137,7 @@ Tras hacer eso, creamos un dataset con los artistas, obteniendo su nombre, géne
 
 \pagebreak
 
-\section{Código SageMath}
+\section{Creación del grafo y otros cálculos}
 
 \paragraph*{Una vez hemos extraído los datos de la API es turno de importar los datos Json, para ello utilizaremos la librería \emph{json}.}
 
@@ -320,6 +320,61 @@ y el algoritmo Hierarchical clustering nos permite encontrar esas 8 comunidades.
  	}%
 	\label{fig:codigoSage6}
 \end{figure}
+
+
+\section{Estudio de comunidades}
+\paragraph*{Para el estudio de comunidades utilizaremos la herramienta Gephi. 
+Para ello es necesario tener los vertices y las aristas en formato CSV.
+Esto se ha hecho a mano con un poco de paciencia, por ende es posible que haya alguna errata, 
+aunque lo ideal es hacer algun tipo de algoritmo que dado un grafo de sage  a partir de las listas de vertices y aristas,
+haga la conversion a CSV y luego eso lo importaríamos en Gephi.}
+
+\paragraph*{Una vez obtenidos los arhivos CSV el siguiente paso es importarlo en la herramienta, para ello seguiremos los siguientes pasos:}
+\begin{enumerate}
+	\item \textbf{Archivo, importar hoja de cálculo.}
+	\item \textbf{Seleccionamos el archivo CSV que contiene los vértices.}
+	\item \textbf{Le damos siguiente, terminar y añadir a espacio de trabajo existente.}
+	\item \textbf{Repetimos el proceso pero esta vez con el archivo de aristas}
+	\item \textbf{Le damos siguiente a todo y no olvidemos al acabar de añadir las aristas al espacio de trabajo existente.}
+\end{enumerate}
+
+\paragraph*{A continuación en el panel de estadísticas ejecutaremos el algoritmo de Modularidad que nos dará las estadísticas.Figura~\ref{fig:gephiModularity}. 
+Podemos observar que se han detectado 7 comunidades, que para representarlas en el grafo y poder verlas visualmente tenemos que configurar los siguientes elementos:}
+\begin{enumerate}
+	\item \textbf{Apariencia(icono de la paleta de colores), nodos, particion y seleccionamos Modularity Class. De esta forma los nodos se colorearan del color correspondiente a su comunidad.Figura~\ref{fig:gephiModularity}.}
+	\item \textbf{Apariencia(icono del tamaño), ranking, Betweenness Centrality. Para que el tamaño de los nodos represente la centralidad de cercanía.Figura~\ref{fig:gephiModularity}.}
+	\item \textbf{En distribución, seleccionamos Force Atlas y ajustamos la fuerza de repulsión en 100000.0 y marcamos ajustar por tamaños.}
+	\item \textbf{Obtenemos este grafo. Figura~\ref{fig:gephiModularity}.}
+\end{enumerate}
+
+\begin{figure}[H]
+	\begin{center}
+%
+	   \subfigure[Resultado de la modularidad]{%
+		   \label{fig:first}
+		   \includegraphics[width=0.5\textwidth]{gephi_modularity.png}
+	   }%
+	   \subfigure[Apariencia color]{%
+		   \includegraphics[width=0.3\textwidth]{gephi_apariencia_color.png}
+		   \label{fig:second}
+	   }\\ %  ------- End of the first row ----------------------%
+	   \subfigure[Apariencia tamaño]{%
+		   \label{fig:third}
+		   \includegraphics[width=0.3\textwidth]{gephi_apariencia_tam.png}
+	   }%
+	   \subfigure[Grafo por comunidades]{%
+	   \label{fig:four}
+	   \includegraphics[width=0.5\textwidth]{gephi_graph_1.png}
+   	   }%
+%
+	\end{center}
+	\caption{%
+	Modularidad en Gephi
+ 	}%
+	\label{fig:gephiModularity}
+\end{figure}
+
+
 
 
 \section{Conclusiones}
