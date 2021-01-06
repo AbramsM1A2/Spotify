@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.4.15)  6 JAN 2021 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.4.15)  6 JAN 2021 17:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1205,11 +1205,11 @@ File: sage_7.png Graphic file (type png)
 Package pdftex.def Info: sage_7.png used on input line 226.
 (pdftex.def)             Requested size: 241.84842pt x 106.03932pt.
 
-<sage_7_out.png, id=153, 627.84563pt x 278.54062pt>
+<sage_7_out.png, id=153, 625.33624pt x 360.84813pt>
 File: sage_7_out.png Graphic file (type png)
  <use sage_7_out.png>
 Package pdftex.def Info: sage_7_out.png used on input line 230.
-(pdftex.def)             Requested size: 241.84842pt x 107.2916pt.
+(pdftex.def)             Requested size: 241.84842pt x 139.5574pt.
 
 Overfull \hbox (14.59998pt too wide) in paragraph at lines 226--230
  [][][] 
@@ -1458,7 +1458,7 @@ s/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 latxfont/lasy10.pfb>
-Output written on informe.pdf (11 pages, 1205035 bytes).
+Output written on informe.pdf (11 pages, 1208725 bytes).
 PDF statistics:
  282 PDF objects out of 1000 (max. 8388607)
  210 compressed objects within 3 object streams
