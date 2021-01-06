@@ -23,17 +23,9 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Centralidad de grado}}}{8}{figure.7}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Centralidad de intermediaci\IeC {\'o}n}}}{8}{figure.7}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Centralidad de cercan\IeC {\'\i }a}}}{8}{figure.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces C\IeC {\'o}digo SageMath 5 }}{8}{figure.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Similitud}}}{8}{figure.8}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Similitud entre comunidades}}}{8}{figure.8}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Unir comunidades}}}{8}{figure.8}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Comunidades aplicando modularidad}}}{8}{figure.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces C\IeC {\'o}digo SageMath 6 }}{9}{figure.9}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Salida comunidades}}}{9}{figure.9}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Vector de comunidades}}}{9}{figure.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Modularidad en Gephi }}{10}{figure.10}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Resultado de la modularidad}}}{10}{figure.10}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Apariencia color}}}{10}{figure.10}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Apariencia tama\IeC {\~n}o}}}{10}{figure.10}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Grafo por comunidades}}}{10}{figure.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Gephi grafo versi\IeC {\'o}n grande}}{11}{figure.11}
+\contentsline {figure}{\numberline {8}{\ignorespaces Modularidad en Gephi }}{9}{figure.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Resultado de la modularidad}}}{9}{figure.8}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Apariencia color nodos}}}{9}{figure.8}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Apariencia tama\IeC {\~n}o nodos}}}{9}{figure.8}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Grafo por comunidades}}}{9}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Gephi, grafo por comunidades}}{10}{figure.9}

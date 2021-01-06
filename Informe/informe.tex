@@ -61,19 +61,19 @@
 \paragraph*{Nuestro objetivo será manipular los datos de la API sobre un artista en concreto, y partiendo de ahí estudiaremos sus conexiones, los artistas relacionados y las playlists.}
 
 \paragraph*{El primer paso es crearnos \href{https://developer.spotify.com/dashboard/applications}{una cuenta como desarrollador Spotify}, 
-	si ya tenemos cuenta de Spotify solo necesitaremos iniciar sesión en la web de desarrolladores. Será necesario dar de alta una aplicación, de esta manera obtendremos un Client ID y un Client Secret.
-	Veasé las siguientes figuras: \footnote{Se han ocultado los client ID de las figuras ya que este puede ser usado por cualquier persona.}}
+	si ya tenemos cuenta de Spotify solo necesitaremos iniciar sesión en la web de desarrolladores. Será necesario dar de alta una aplicación [Figura~\ref{fig:dashboard_spotify}], de esta manera obtendremos un Client ID y un Client Secret [Figura~\ref{fig:app_spotify}].
+	\footnote{Se han ocultado los client ID de las figuras ya que este puede ser usado por cualquier persona.}}
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=120mm]{spotify_dev_dashboard.png}
-    \caption{Spotify dashboard}
+    \caption{Spotify dashboard}\label{fig:dashboard_spotify}
 \end{figure}
 
 \begin{figure}[h!]
     \centering
 	\includegraphics[width=120mm]{devoloper_spotify_1.png}
-    \caption{Spotify application}
+    \caption{Spotify application}\label{fig:app_spotify}
 \end{figure}
 
 \paragraph*{Una vez tengamos nuestra aplicacion creada necesitaremos el client ID y el client secret para poder autenticarnos 
@@ -98,7 +98,7 @@ Y el segundo escrito en SageMath que nos permite representar y estudiar esos dat
 	\item \textbf{pandas:} que nos permite crear los dataframes que vamos a exportar a SageMath.
 	\item \textbf{spotipy:} nos permite interactuar con la API.
 \end{itemize}
-\paragraph*{A continuación se explicaran las imagenes presentes en la figura~\ref{fig:codigoPython}.}
+\paragraph*{A continuación se explicaran las imagenes presentes en la Figura~\ref{fig:codigoPython}.}
 
 
 \paragraph*{Lo primero que hacemos es obtener todas las playlists relacionadas con el artista. Para ello hemos tomado la URL de cada una de las playlists de 50 Cent y las hemos almacenado para su posterior uso. 
@@ -141,10 +141,10 @@ Tras hacer eso, creamos un dataset con los artistas, obteniendo su nombre, géne
 
 \paragraph*{Una vez hemos extraído los datos de la API es turno de importar los datos Json, para ello utilizaremos la librería \emph{json}.}
 
-\paragraph*{Una vez importado utilizaremos dos listas que englobaran los 4 datasets, uno para las playlist y otro para los artistas.}
+\paragraph*{Una vez importado utilizaremos dos listas que englobaran los 4 datasets, uno para las playlist y otro para los artistas.Figura~\ref{fig:codigoSage1}}
 
 \paragraph*{Para crear el grafo hemos recorrido cada Playlist y enlazado aquellos artistas que aparecen en dicha playlist, 
-el resultado es un grafo en donde cada color representa una playlist y cada vértice un artista.}
+el resultado es un grafo en donde cada color representa una playlist y cada vértice un artista. Figura~\ref{fig:codigoSage2}.}
 
 
 
@@ -270,57 +270,6 @@ autor de estudio Mobb Deep tiene la misma centralidad de grado. Figura~\ref{fig:
 	\label{fig:codigoSage4}
 \end{figure}
 
-\paragraph*{Ahora veremos el estudio de comunidades para ello hemos utilizado los metódos realizados en la práctica de comunidades de la asignatura. Figura~\ref{fig:codigoSage5}.}
-
-\begin{figure}[H]
-	\begin{center}
-%
-	   \subfigure[Similitud]{%
-		   \label{fig:first}
-		   \includegraphics[width=0.5\textwidth]{sage_12.png}
-	   }%
-	   \subfigure[Similitud entre comunidades]{%
-		   \label{fig:second}
-		   \includegraphics[width=0.5\textwidth]{sage_13.png}
-	   }\\ %  ------- End of the first row ----------------------%
-	   \subfigure[Unir comunidades]{%
-		   \label{fig:third}
-		   \includegraphics[width=0.5\textwidth]{sage_14.png}
-	   }%
-	   \subfigure[Comunidades aplicando modularidad]{%
-		   \label{fig:four}
-		   \includegraphics[width=0.5\textwidth]{sage_15.png}
-	   }%
-%
-	\end{center}
-	\caption{%
-	Código SageMath 5
- 	}%
-	\label{fig:codigoSage5}
-\end{figure}
-
-\paragraph*{La modularidad nos permite enconrar aquellos nodos que tienen una conexion muy fuerte con sus vecinos, 
-y el algoritmo Hierarchical clustering nos permite encontrar esas 8 comunidades.Figura~\ref{fig:codigoSage6}.}
-\begin{figure}[H]
-	\begin{center}
-%
-	   \subfigure[Salida comunidades]{%
-		   \label{fig:first}
-		   \includegraphics[width=0.5\textwidth]{sage_16.png}
-	   }%
-	   \subfigure[Vector de comunidades]{%
-		   \label{fig:second}
-		   \includegraphics[width=0.5\textwidth]{sage_17.png}
-	   }
-	   
-%
-	\end{center}
-	\caption{%
-	Código SageMath 6
- 	}%
-	\label{fig:codigoSage6}
-\end{figure}
-
 
 \section{Estudio de comunidades}
 \paragraph*{Para el estudio de comunidades utilizaremos la herramienta Gephi. 
@@ -344,6 +293,7 @@ Podemos observar que se han detectado 7 comunidades, que para representarlas en 
 	\item \textbf{Apariencia(icono de la paleta de colores), nodos, particion y seleccionamos Modularity Class. De esta forma los nodos se colorearan del color correspondiente a su comunidad.}
 	\item \textbf{Apariencia(icono del tamaño), ranking, Betweenness Centrality. Para que el tamaño de los nodos represente la centralidad de cercanía..}
 	\item \textbf{En distribución, seleccionamos Force Atlas y ajustamos la fuerza de repulsión en 100000.0 y marcamos ajustar por tamaños.}
+	\item \textbf{Por ultimo se han coloreado las aristas por peso para distinguir las playlists que los unen.}
 	\item \textbf{Obtenemos este grafo. }
 \end{enumerate}
 
@@ -354,11 +304,11 @@ Podemos observar que se han detectado 7 comunidades, que para representarlas en 
 		   \label{fig:first}
 		   \includegraphics[width=0.5\textwidth]{gephi_modularity.png}
 	   }%
-	   \subfigure[Apariencia color]{%
+	   \subfigure[Apariencia color nodos]{%
 		   \includegraphics[width=0.3\textwidth]{gephi_apariencia_color.png}
 		   \label{fig:second}
 	   }\\ %  ------- End of the first row ----------------------%
-	   \subfigure[Apariencia tamaño]{%
+	   \subfigure[Apariencia tamaño nodos]{%
 		   \label{fig:third}
 		   \includegraphics[width=0.3\textwidth]{gephi_apariencia_tam.png}
 	   }%
@@ -380,7 +330,7 @@ Dónde los nodos más grandes representan una centralidad de cercania mayor, que
 \begin{figure}[h!]
     \centering
     \includegraphics[width=150mm]{gephi_grafo_bonito.png}
-    \caption{Gephi grafo versión grande}\label{fig:gephi_bonito}
+    \caption{Gephi, grafo por comunidades}\label{fig:gephi_bonito}
 \end{figure}
 \pagebreak
 
