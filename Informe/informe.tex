@@ -79,26 +79,25 @@
 \paragraph*{Una vez tengamos nuestra aplicacion creada necesitaremos el client ID y el client secret para poder autenticarnos 
 y recuperar datos de la API.}
 
-\paragraph*{Nuestro trabajo se compone de dos programas, el primero escrito en python utilizando Visual Studio Code
-que nos permite recuperar datos de la API de Spotify y exportarlos a JSON. 
-Y el segundo escrito en SageMath que nos permite representar y estudiar esos datos con teoría de grafos.}
+\paragraph*{Nuestro trabajo se compone de dos programas, el primero escrito en Python utilizando Visual Studio Code
+que nos permite recuperar datos de la API de Spotify y exportarlos a JSON, y el segundo escrito en SageMath que nos permite representar y estudiar esos datos con Teoría de Grafos.}
 
 \section{Obtención de datos}
 
 \paragraph*{El codigo python se compone de tres secciones}
 \begin{itemize}
-	\item \textbf{Conexion}
+	\item \textbf{Conexión}
 	\item \textbf{Recolección de datos}
 	\item \textbf{Exportación}
 \end{itemize}
 
-\paragraph*{Para que el codigo funcione solo se han necesitado 3 librerias:}
+\paragraph*{Para que el codigo funcione solo se han necesitado 3 librerías:}
 \begin{itemize}
 	\item \textbf{spotipy.oauth2-SpotifyClientCredentials:} nos permite hacer la autenticación.
-	\item \textbf{pandas:} que nos permite crear los dataframes que vamos a exportar a SageMath.
+	\item \textbf{pandas:} nos permite crear los dataframes que vamos a exportar a SageMath.
 	\item \textbf{spotipy:} nos permite interactuar con la API.
 \end{itemize}
-\paragraph*{A continuación se explicaran las imagenes presentes en la Figura~\ref{fig:codigoPython}.}
+\paragraph*{A continuación se explicaran las imágenes presentes en la Figura~\ref{fig:codigoPython}.}
 
 
 \paragraph*{Lo primero que hacemos es obtener todas las playlists relacionadas con el artista. Para ello hemos tomado la URL de cada una de las playlists de 50 Cent y las hemos almacenado para su posterior uso. 
@@ -139,11 +138,11 @@ Tras hacer eso, creamos un dataset con los artistas, obteniendo su nombre, géne
 
 \section{Creación del grafo y otros cálculos}
 
-\paragraph*{Una vez hemos extraído los datos de la API es turno de importar los datos Json, para ello utilizaremos la librería \emph{json}.}
+\paragraph*{Una vez hemos extraído los datos de la API es turno de importar los datos JSON, para ello utilizaremos la librería \emph{json}.}
 
 \paragraph*{Una vez importado utilizaremos dos listas que englobaran los 4 datasets, uno para las playlist y otro para los artistas.Figura~\ref{fig:codigoSage1}}
 
-\paragraph*{Para crear el grafo hemos recorrido cada Playlist y enlazado aquellos artistas que aparecen en dicha playlist, 
+\paragraph*{Para crear el grafo hemos recorrido cada playlist y enlazado aquellos artistas que aparecen en dicha playlist, 
 el resultado es un grafo en donde cada color representa una playlist y cada vértice un artista. Figura~\ref{fig:codigoSage2}.}
 
 
@@ -200,11 +199,11 @@ el resultado es un grafo en donde cada color representa una playlist y cada vér
 
 
 \paragraph*{De los artistas que participan en las playlists se han obtenido 
-los mas populares por cada playlists, del mas popular se puede ver que Eminen es el ganador. Figura~\ref{fig:codigoSage3}.}
+los más populares por cada playlists, del más popular se puede ver que Eminen es el ganador. Figura~\ref{fig:codigoSage3}.}
 
-\paragraph*{Se pueden observar las comunidades segun los generos por artista, 
-de las playlist anteriores podemos enconrar que los generos raiz son el hiphop y el rap
-y podemos encontrar generos derivados como el nashville hip hop o el electropop. Figura~\ref{fig:codigoSage3}.}
+\paragraph*{Se pueden observar las comunidades segun los géneros por artista, 
+de las playlist anteriores podemos encontrar que los generos raíz son el hiphop y el rap
+y podemos ver géneros derivados como el nashville hip hop o el electropop. Figura~\ref{fig:codigoSage3}.}
 
 \paragraph*{La centralidad de intermediacion nos permite detectar 
 aquellos nodos que hacen de puente para otros nodos de tal forma que el camino se hace mas corto.
@@ -212,9 +211,9 @@ En este grafo tras aplicar la centralidad de intermediacion y coger los valores 
 podemos observar que los mas importantes son Young Buck y 50 cent, 
 curioso ya que 50 cent esta en todas las playlists. Figura~\ref{fig:codigoSage4}.}
 
-\paragraph*{Practicamente coincide con el centro del grafo(cercania) Figura~\ref{fig:codigoSage4}.}
+\paragraph*{Prácticamente coincide con el centro del grafo(cercania) Figura~\ref{fig:codigoSage4}.}
 
-\paragraph*{Lo sorpredente de esta centralidad de grado es que a pesar de que 50cent es nuestro 
+\paragraph*{Lo sorpredente de esta centralidad de grado es que a pesar de que 50 Cent es nuestro 
 autor de estudio Mobb Deep tiene la misma centralidad de grado. Figura~\ref{fig:codigoSage4}.}
 
 
@@ -273,14 +272,14 @@ autor de estudio Mobb Deep tiene la misma centralidad de grado. Figura~\ref{fig:
 
 \section{Estudio de comunidades}
 \paragraph*{Para el estudio de comunidades utilizaremos la herramienta Gephi. 
-Para ello es necesario tener los vertices y las aristas en formato CSV.
+Para ello es necesario tener los vértices y las aristas en formato CSV.
 Esto se ha hecho a mano con un poco de paciencia, por ende es posible que haya alguna errata, 
-aunque lo ideal es hacer algun tipo de algoritmo que dado un grafo de sage  a partir de las listas de vertices y aristas,
+aunque lo ideal es hacer algun tipo de algoritmo que dado un grafo de sage a partir de las listas de vertices y aristas,
 haga la conversion a CSV y luego eso lo importaríamos en Gephi.}
 
 \paragraph*{Una vez obtenidos los arhivos CSV el siguiente paso es importarlo en la herramienta, para ello seguiremos los siguientes pasos:}
 \begin{enumerate}
-	\item \textbf{Archivo, importar hoja de cálculo.}
+	\item \textbf{Archivo, Importar hoja de cálculo.}
 	\item \textbf{Seleccionamos el archivo CSV que contiene los vértices.}
 	\item \textbf{Le damos siguiente, terminar y añadir a espacio de trabajo existente.}
 	\item \textbf{Repetimos el proceso pero esta vez con el archivo de aristas}
@@ -290,11 +289,11 @@ haga la conversion a CSV y luego eso lo importaríamos en Gephi.}
 \paragraph*{A continuación en el panel de estadísticas ejecutaremos el algoritmo de Modularidad que nos dará las estadísticas. 
 Podemos observar que se han detectado 7 comunidades, que para representarlas en el grafo y poder verlas visualmente tenemos que configurar los siguientes elementos: [Figura~\ref{fig:gephiModularity}].}
 \begin{enumerate}
-	\item \textbf{Apariencia(icono de la paleta de colores), nodos, particion y seleccionamos Modularity Class. De esta forma los nodos se colorearan del color correspondiente a su comunidad.}
-	\item \textbf{Apariencia(icono del tamaño), ranking, Betweenness Centrality. Para que el tamaño de los nodos represente la centralidad de cercanía..}
-	\item \textbf{En distribución, seleccionamos Force Atlas y ajustamos la fuerza de repulsión en 100000.0 y marcamos ajustar por tamaños.}
-	\item \textbf{Por ultimo se han coloreado las aristas por peso para distinguir las playlists que los unen.}
-	\item \textbf{Obtenemos este grafo. }
+	\item \textbf{Apariencia(icono de la paleta de colores), Nodos, Partición y seleccionamos Modularity Class. De esta forma los nodos se colorearan del color correspondiente a su comunidad.}
+	\item \textbf{Apariencia(icono del tamaño), Ranking, Betweenness Centrality. Para que el tamaño de los nodos represente la centralidad de cercanía..}
+	\item \textbf{En Distribución, seleccionamos Force Atlas y ajustamos la fuerza de repulsión en 100000.0 y marcamos Ajustar por tamaños.}
+	\item \textbf{Por último se han coloreado las aristas por peso para distinguir las playlists que los unen.}
+	\item \textbf{Obtenemos el grafo de la figura. }
 \end{enumerate}
 
 \begin{figure}[H]
@@ -324,8 +323,8 @@ Podemos observar que se han detectado 7 comunidades, que para representarlas en 
 	\label{fig:gephiModularity}
 \end{figure}
 
-\paragraph*{Si utilizamos la pestaña de previsualización obtendremos la Figura~\ref{fig:gephi_bonito} y podremos ver las 7 comunidades un poco más de cerca. 
-Dónde los nodos más grandes representan una centralidad de cercania mayor, que a su vez coinciden con el ranking de popularidad de cada artista.}
+\paragraph*{Si utilizamos la pestaña de previsualización de Gephi obtendremos la Figura~\ref{fig:gephi_bonito} y podremos ver las 7 comunidades un poco más de cerca, 
+dónde el tamaño de los nodos representan una centralidad de cercanía en la que cuanto mayor es el nodo mayor es su centralidad, que a su vez coincide con el ranking de popularidad de cada artista.}
 
 \begin{figure}[h!]
     \centering
@@ -339,7 +338,7 @@ Dónde los nodos más grandes representan una centralidad de cercania mayor, que
 \paragraph*{A diferencia de otras redes como Twitter o Facebook, Spotify es un tanto más difícil de estudiar ya que no es tan susceptible de que un ojo novato cree con poco esfuerzo un boceto de como funcionan las relaciones entre artistas, 
 no como en Facebook que con ir diciendo premisas como "Fulanito es amigo de Pepito, así que puedo unirlos con una arista, y entonces...", o "Naranjito le dio retweet a Manolito, así que puedo relacionarlos con una arista, y entonces...", obtener una red es asequible. Spotify te puede ofrecer en cambio listas de reproducción con ciertos artistas, álbumes de esos artistas e incluso podcasts, lo que hace que el ojo inexperto tenga problemas para buscar una forma de estudiar la red. }
 
-\paragraph*{Sin embargo, al estudiar a un artista en concreto como 50 Cent a partir de sus listas de reproducción, hemos obtenidos resultados interesantes, como que por ejemplo él no sea el artista más famoso de su grupo, sino Eminem, o que por ejemplo un artista Mobb Deep sea un artista de paso entre todas las listas de reproducción.
+\paragraph*{Sin embargo, al estudiar a un artista en concreto como 50 Cent a partir de sus listas de reproducción, hemos obtenidos resultados interesantes, como que por ejemplo él no sea el artista más famoso de su grupo, sino Eminem, o que por ejemplo un artista como Mobb Deep sea un artista de paso entre todas las listas de reproducción.
 Todos estos resultados fueron gratificantes y cuanto menos informativos del comportamiento de Spotify.}
 
 

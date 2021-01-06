@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1609944759 "informe.tex" "informe.pdf" "informe" 1609944765
+["pdflatex"] 1609950652 "informe.tex" "informe.pdf" "informe" 1609950658
   "/etc/texmf/web2c/texmf.cnf" 1555363701 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -105,11 +105,11 @@
   "gephi_grafo_bonito.png" 1609869011 153391 904de541da39479ecbd4dc1fcc173008 ""
   "gephi_graph_1.png" 1609867815 126363 f592a4be2536be89ad049e7bdc28b041 ""
   "gephi_modularity.png" 1609867085 48522 21cf7eb716d32fdfb2cf6d236afb329a ""
-  "informe.aux" 1609944764 8547 f126957bd0167d41bfee5f07289cf48e ""
-  "informe.lof" 1609944764 3096 25001e5fb7ec476024335a3e787c62aa ""
-  "informe.out" 1609944764 296 81d00b9a1e80c0aeb42f60c6b037d87e ""
-  "informe.tex" 1609944756 15235 f606b27b65cedcad8aa1ad86eff644ce ""
-  "informe.toc" 1609944764 475 ff2d5c7f36fea61d11eea385bdebfccb ""
+  "informe.aux" 1609950657 8547 f126957bd0167d41bfee5f07289cf48e ""
+  "informe.lof" 1609950657 3096 25001e5fb7ec476024335a3e787c62aa ""
+  "informe.out" 1609950657 296 81d00b9a1e80c0aeb42f60c6b037d87e ""
+  "informe.tex" 1609950651 15314 22af3f94e096e30fc94e1207ef8955da ""
+  "informe.toc" 1609950657 475 ff2d5c7f36fea61d11eea385bdebfccb ""
   "programa_1.png" 1609259446 36866 d7a71e016cd747f70252ecfa4fba1db8 ""
   "programa_2.png" 1609259482 39997 7242b9aa77f9e12c62da986ace621d73 ""
   "programa_3.png" 1609259542 86561 e53ebab5171f700eba7b1e6304274e8e ""
@@ -128,9 +128,9 @@
   "sage_9.png" 1609263634 13143 9e265d2153c39bf4fb59bf8f9b9ab0ee ""
   "spotify_dev_dashboard.png" 1608305684 33035 2a92db103dfd26965832535f7f06de85 ""
   (generated)
-  "informe.aux"
-  "informe.log"
-  "informe.pdf"
   "informe.out"
   "informe.toc"
   "informe.lof"
+  "informe.aux"
+  "informe.pdf"
+  "informe.log"
