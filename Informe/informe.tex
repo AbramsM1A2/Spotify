@@ -11,6 +11,7 @@
 \usepackage{float}
 \usepackage{hyperref}
 \usepackage{subfigure}
+\usepackage{blindtext}
 \usepackage{geometry}
  \geometry{
  a4paper,
@@ -19,18 +20,29 @@
  top=20mm,
  }
 
-%Use \href{URL}{DESCRIPTION} to add a link with description.
-%Use \url{URL} to add a link without a description.
 
 
-
-\title{Spotify}
-\date{2021-10-01}
-\author{Abraham Corta Ramírez y José Calcedo Vázquez}
 
 \begin{document}
+
+\begin{titlepage}
+	\centering
+	\includegraphics[width=0.15\textwidth]{Emblema_Universidad_de_Sevilla.png}\par\vspace{1cm}
+	{\scshape\LARGE Universidad de Sevilla \par}
+	\vspace{1cm}
+	{\scshape\Large Trabajo de programación\par}
+	\vspace{1.5cm}
+	{\huge\bfseries Spotify\par}
+	\vspace{2cm}
+	{\Large\itshape Abraham Corta Ramírez y José Calcedo Vázquez\par}
+	\vfill
+	
+	{\large \today\par}
+\end{titlepage}
+
+
 \pagenumbering{gobble}
-\maketitle
+
 \newpage
 \pagenumbering{arabic}
 
@@ -339,7 +351,23 @@ dónde el tamaño de los nodos representan una centralidad de cercanía en la qu
 no como en Facebook que con ir diciendo premisas como "Fulanito es amigo de Pepito, así que puedo unirlos con una arista, y entonces...", o "Naranjito le dio retweet a Manolito, así que puedo relacionarlos con una arista, y entonces...", obtener una red es asequible. Spotify te puede ofrecer en cambio listas de reproducción con ciertos artistas, álbumes de esos artistas e incluso podcasts, lo que hace que el ojo inexperto tenga problemas para buscar una forma de estudiar la red. }
 
 \paragraph*{Sin embargo, al estudiar a un artista en concreto como 50 Cent a partir de sus listas de reproducción, hemos obtenidos resultados interesantes, como que por ejemplo él no sea el artista más famoso de su grupo, sino Eminem, o que por ejemplo un artista como Mobb Deep sea un artista de paso entre todas las listas de reproducción.
-Todos estos resultados fueron gratificantes y cuanto menos informativos del comportamiento de Spotify.}
+Todos estos resultados fueron gratificantes y cuanto menos informativos del comportamiento de Spotify.
+\footnote{Todo el trabajo realizado se puede encontrar en \href{https://github.com/AbramsM1A2/Spotify}{GitHub}.}}
+
+\section{Bibliografía}
+
+\paragraph*{[Página web] Grafos y Sage, URL: \url{https://doc.sagemath.org/pdf/en/reference/graphs/graphs.pdf}.}
+
+\paragraph*{[Página web] Perfil de 50 Cent, URL: \url{https://open.spotify.com/user/1217753577 }.}
+
+\paragraph*{[Página web] Spotify Web API, URL: \url{https://developer.spotify.com/documentation/web-api/}.}
+
+\paragraph*{[Página web] Referencia Spotify Web API, URL: \url{https://developer.spotify.com/documentation/web-api/reference-beta/}.}
+
+\paragraph*{[Página web] Atributos de la API, URL: \url{https://developer.spotify.com/documentation/web-api/reference/tracks/get-track/}.}
+
+\paragraph*{[Página web] Tutorial de la API de Spotify en español, URL: \url{http://gerardoprieto.com/2019/02/12/jugando-con-python-y-el-api-de-spotify/}.}
+
 
 
 \end{document}

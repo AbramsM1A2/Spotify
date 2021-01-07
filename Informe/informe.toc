@@ -5,3 +5,4 @@
 \contentsline {section}{\numberline {3}Creaci\IeC {\'o}n del grafo y otros c\IeC {\'a}lculos}{5}{section.3}
 \contentsline {section}{\numberline {4}Estudio de comunidades}{8}{section.4}
 \contentsline {section}{\numberline {5}Conclusiones}{10}{section.5}
+\contentsline {section}{\numberline {6}Bibliograf\IeC {\'\i }a}{11}{section.6}
